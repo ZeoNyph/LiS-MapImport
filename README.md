@@ -4,10 +4,17 @@ These two scripts help with importing .umap files from *Life is Strange: Remaste
 
 This was only tested on Blender 4.3, so I'm unsure on whether it works on older versions, but feel free to try it out.
 
+## Requirements
+
+- A *Steam* copy of *Life is Strange: Remastered*.
+- Blender (preferably 4.3)
+- [FModel](https://fmodel.app/)
+- [UModel](https://www.gildor.org/en/projects/umodel) 
+
 ## Usage
 
-- Export the .umap file you wish to import into Blender using FModel as a .json file.
-- Export the required assets from the game files using UModel (it might be easier to export all the files from `Packages/Environment` and `Packages/Objects` rather than exporting them individually).
+- Export the .umap file you wish to import into Blender using [FModel](https://fmodel.app/) as a .json file.
+- Export the required assets from the game files using [UModel](https://www.gildor.org/en/projects/umodel) (it might be easier to export all the files from `Packages/Environment` and `Packages/Objects` rather than exporting them individually).
     - Make sure the static meshes are exported as .gltf files and the textures as .tga files.
 - Clone this repository into a folder of your choice.
 - In a Blender project, open the 'Scripting' workspace, and open the `map_mesh_import.py` file in its text editor.
