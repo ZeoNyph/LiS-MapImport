@@ -6,14 +6,15 @@ import math
 import os
 
 # This is the base dir that contains all the unpacked assets - unpack using the latest ACL compatible build UE Viewer
-base_dir = r"C:\Users\mithu\Downloads\umodel_win32\\"
+# Directory within must follow this path structure: LiS/Content/(your exported directories and files)
+base_dir = r"C:\Users\User\BaseDir\\"
 
 # This is a subdirectory where you can insert additional parts of the path to the assets
 asset_sub_dir = ""
 
 # This is the path to the JSON file that contains the map data - you can extract this from .umap files using FModel.exe
 map_json = [
-    r"C:\Users\mithu\Downloads\FModel\Output\Exports\LiS\Content\Maps\Episode01\Sequence04\E1_4A_CHouseFront_GRC.json"
+    r"C:\Users\User\Downloads\FModel\Output\Exports\LiS\Content\Maps\Episode01\Sequence04\E1_4A_CHouseFront_GRC.json" # Example file directory
 ]
 
 # importer toggles

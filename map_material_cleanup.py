@@ -32,7 +32,7 @@ def search_directory(root_dir, file_name):
                 return file_path
     return None
 
-mat_dir = r"C:\Users\mithu\Downloads\umodel_win32\\" # add dir here
+mat_dir = r"C:\Users\User\Material\Path\Here" # add dir here
 
 # Get all materials in the scene
 materials = bpy.data.materials
